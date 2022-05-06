@@ -20,21 +20,21 @@ function App() {
     return (
         <div className='App'>
             <div className='container mx-auto'>
-                {/* <EffectTutorial /> */}
-                {/* <ReducerTutorial/> */}
-                {/* <StateTutorial/> */}
-                {/* <ContextTutorial/> */}
-                {/* <ImperativeHandle/> */}
-                {/* <RefTutorial/> */}
-                {/* <MemoTutorial /> */}
-                {/* <CallBackTutorial/> */}
-                {/* <DemoUseSyncExternalStore /> */}
-                {/* <UseIdDemo /> */}
-                {/* <UseDebugValueDemo /> */}
-                {/* <UseTransition /> */}
-                {/* <UseTransition2 /> */}
+                <EffectTutorial />
+                <ReducerTutorial />
+                <StateTutorial />
+                <ContextTutorial />
+                <ImperativeHandle />
+                <RefTutorial />
+                <MemoTutorial />
+                <CallBackTutorial />
+                <DemoUseSyncExternalStore />
+                <UseIdDemo />
+                <UseDebugValueDemo />
+                <UseTransition />
+                <UseTransition2 />
                 <UseTransitionDemo />
-                {/* <UseDeferredValue /> */}
+                <UseDeferredValue />
                 <UseInsertionEffect />
             </div>
         </div>

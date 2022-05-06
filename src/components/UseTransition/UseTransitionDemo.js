@@ -40,12 +40,13 @@ function UseTransitionDemo() {
             {isPending && <div>transition...</div>}
             {!isPending && (
                 <div>
-                    {Array(50000)
+                    {Array(50)
                         .fill('a')
-                        .map((item) => (
-                            <div>{value}</div>
+                        .map((item,i) => (
+                            <div key={i}>{value}</div>
                         ))}
                 </div>
+                // Array(50000)
             )}
             <p> --- 2 --- </p>
             <button onClick={handleClick}>{value1}</button>
